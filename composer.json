@@ -1,0 +1,60 @@
+{
+    "name": "vishwaraj/whatsapp-cloud-api",
+    "description": "Laravel package for the WhatsApp Cloud API — fluent builders, full template support, media management, and interactive messages.",
+    "type": "library",
+    "keywords": ["whatsapp", "cloud-api", "laravel", "meta", "messaging"],
+    "homepage": "https://github.com/Vishwaraj123/vishwaraj-whatsapp-cloud-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vishwaraj",
+            "email": "vdhummad123@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/http": "^10.0|^11.0|^12.0",
+        "illuminate/filesystem": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "pestphp/pest": "^2.0|^3.0",
+        "pestphp/pest-plugin-laravel": "^2.0|^3.0",
+        "phpunit/phpunit": "^10.0|^11.0",
+        "mockery/mockery": "^1.6",
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vishwaraj\\WhatsAppCloud\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vishwaraj\\WhatsAppCloud\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vishwaraj\\WhatsAppCloud\\WhatsAppCloudServiceProvider"
+            ],
+            "aliases": {
+                "WhatsAppCloud": "Vishwaraj\\WhatsAppCloud\\Facades\\WhatsAppCloud"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "pestphp/pest": true
+        }
+    }
+}
