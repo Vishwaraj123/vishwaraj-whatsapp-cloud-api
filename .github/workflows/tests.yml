@@ -52,6 +52,8 @@ jobs:
             "illuminate/support:^${{ matrix.laravel }}.0" \
             "illuminate/http:^${{ matrix.laravel }}.0" \
             "illuminate/filesystem:^${{ matrix.laravel }}.0" \
+            --no-interaction --no-update
+          composer require --dev \
             "orchestra/testbench:^${{ matrix.testbench }}.0" \
             --no-interaction --no-update
           composer update --prefer-dist --no-interaction --no-progress
