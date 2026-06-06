@@ -1,6 +1,6 @@
 # WhatsApp Cloud API — Laravel Package
 
-[![Tests](https://github.com/Vishwaraj123/vishwaraj-whatsapp-cloud-api/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/Vishwaraj123/vishwaraj-whatsapp-cloud-api/actions/workflows/tests.yml)
+[![Tests](https://github.com/Vishwaraj123/vishwaraj-whatsapp-cloud-api/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/Vishwaraj123/vishwaraj-whatsapp-cloud-api/actions/workflows/tests.yml)
 [![Latest Version](https://img.shields.io/packagist/v/vishwaraj/whatsapp-cloud-api.svg?label=packagist)](https://packagist.org/packages/vishwaraj/whatsapp-cloud-api)
 [![Total Downloads](https://img.shields.io/packagist/dt/vishwaraj/whatsapp-cloud-api.svg)](https://packagist.org/packages/vishwaraj/whatsapp-cloud-api)
 [![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue?logo=php)](https://www.php.net)
