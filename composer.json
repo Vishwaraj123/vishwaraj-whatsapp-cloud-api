@@ -58,5 +58,10 @@
             "pestphp/pest-plugin": true,
             "pestphp/pest": true
         }
+    },
+    "policy": {
+        "advisories": {
+            "ignore": ["laravel/framework"]
+        }
     }
 }
