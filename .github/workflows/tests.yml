@@ -56,7 +56,7 @@ jobs:
           composer require --dev \
             "orchestra/testbench:^${{ matrix.testbench }}.0" \
             --no-interaction --no-update
-          composer update --prefer-dist --no-interaction --no-progress --no-audit
+          composer update --prefer-dist --no-interaction --no-progress --no-audit --ignore-platform-reqs
 
       - name: Run tests
         run: vendor/bin/pest --ci
