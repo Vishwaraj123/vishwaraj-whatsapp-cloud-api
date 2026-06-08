@@ -14,10 +14,10 @@ A Laravel-native WhatsApp Cloud API package with fluent message builders, full t
 
 ## Requirements
 
-| Dependency | Version   |
-|------------|-----------|
-| PHP        | ^8.2      |
-| Laravel    | 10, 11, 12|
+| Dependency | Version       |
+|------------|---------------|
+| PHP        | ^8.2          |
+| Laravel    | 10, 11, 12, 13|
 
 ---
 
